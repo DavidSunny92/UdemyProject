@@ -11,11 +11,17 @@ import {MatTableModule} from '@angular/material/table';
 import {MatInputModule} from '@angular/material/input';
 import {MatButtonModule} from '@angular/material/button';
 import { SubmitComponent } from './components/submit/submit.component';
+import { HeaderComponent } from './components/header/header.component';
+import { HooksComponent } from './components/hooks/hooks.component';
+import { DatabindingComponent } from './components/databinding/databinding.component';
 @NgModule({
   declarations: [
     AppComponent,
     EmpdetailsComponent,
-    SubmitComponent
+    SubmitComponent,
+    HeaderComponent,
+    HooksComponent,
+    DatabindingComponent
   ],
   imports: [
     BrowserModule,
